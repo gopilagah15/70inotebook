@@ -5,6 +5,7 @@ import About from './component/About'
 import Navbar from './component/Navbar'
 import NoteState from './context/NoteState'
 import Signup from './component/Signup'
+import Login from './component/Login'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route exact path='/home' element={<Home/>}></Route>
       <Route exact path='/about' element={<About/>}></Route>
       <Route exact path='/signup' element={<Signup/>}></Route>
+      <Route exact path='/login' element={<Login/>}></Route>
     </Routes>
     </BrowserRouter>
     </NoteState>
